@@ -1,50 +1,56 @@
 # Smart India Hackathon Workshop
-# Date: 26/02/2025
-## Register Number:212224040371
-## Name: YOGESH D
+
+# Date: 14-11-2025
+
+## Name : YOGESH D
+
+## Register Number : 212224040371
+
+
+
 ## Problem Title
-SIH 1653: Web based Selector-Applicant Simulation Software
+
+SIH 1555: Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
+
 ## Problem Description
-Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defence carries out interviews for applications received against advertised vacancies and for promotion to next higher grade for scientific manpower inducted within DRDO. Description: The process of interviewing is a challenging task. An unbiased objective interviewing process helps identify the right talent. The basic process of an interview involves posing a set of questions by an interviewer and thereafter evaluating responses from candidates. Thus, the questions asked should be relevant and match the area/ expertise of the applicant and the responses should also be of relevance w.r.t. the question asked. Expected Solution: The proposed solution should provide experts as well as candidates a real life Board Room experience, starting with initial ice-breaking questions leading to in-depth techno-managerial (depending on the level of candidate) questions. It shall also be able to provide a quantifiable score for experts as well as the candidate for the relevancy of questions w.r.t. the area/ expertise of the applicant. Similarly, candidate responses should also be graded for relevancy w.r.t. the question asked, finally assisting in arriving at an overall score for the subject knowledge of the candidate and thus his/ her suitability against the advertised post.
+
+Background: The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. However, physical gardens that are not accessible to everyone. A Virtual Herbal Garden will bridge this gap by offering a digital platform where users can explore, learn, and understand the significance of various medicinal plants from the comfort of their homes. Description: Participants are tasked with developing a Virtual Herbal Garden that is engaging, informative, and user-friendly. This virtual garden should include: Interactive 3D Models: Realistic 3D models of medicinal plants that users can rotate, zoom, and explore from different angles. Detailed Information: Comprehensive details about each plant, including its botanical name, common names, habitat, medicinal uses, and methods of cultivation. Multimedia Integration: High-quality images, videos, and audio descriptions to enhance the learning experience. Search and Filter Options: Advanced search functionality to easily locate specific plants and filter them based on various criteria like medicinal uses, region, and type. Virtual Tours: Guided virtual tours highlighting specific themes, such as plants for digestive health, immunity, skin care, etc. User Interaction: Features that allow users to bookmark favourite plants, take notes, and share information on social media. Expected Outcome: The expected outcome is a comprehensive Virtual Herbal Garden that serves as a valuable educational tool for students, practitioners, and enthusiasts of the AYUSH sector. This platform should make the knowledge of medicinal plants accessible to a wider audience, promoting awareness and understanding of traditional herbal practices. It should be visually appealing, informative, and interactive, providing users with an immersive experience that combines technology with traditional knowledge.
 
 ## Problem Creater's Organization
-Ministry of Defence
+Ministry of Ayush
 
 ## Idea
-1.Alumni Registration: Easy registration for alumni to join the association, update profiles, and connect with peers and the institution. 2.Donation Portal: Secure system for alumni to donate to the college's initiatives. 3.Networking Hub: Sections to connect alumni based on shared interests, profession, and geography. 4.Job Portal: Allows alumni to explore job opportunities, post job openings, and network with potential employers. 5.Alumni Directory: A searchable directory of alumni based on criteria such as graduation year, field of study, industry, location, etc. 6.Success Story Tracking: Showcase alumni achievements and inspire current students. 7.Events and Reunions: Announcements, registrations, and management for alumni events, reunions, workshops, and professional sessions. 8.Feedback and Surveys: Allows alumni to provide feedback and participate in surveys to improve the association.
+Title: Virtual Herbal Garden – Experience AYUSH Medicinal Plants Digitally
+
+A web-based platform that provides an interactive and immersive experience of a digital herbal garden showcasing medicinal plants used in AYUSH systems. Users can explore 3D plant models, learn their uses, take guided virtual tours, and interact with multimedia content—making ancient traditional knowledge accessible and engaging for everyone.
 
 ## Proposed Solution / Architecture Diagram
-![web artchitecture image 1](https://github.com/user-attachments/assets/6fddecee-6fa5-4ad5-8b6f-ed78fbe0ebb1)
-
+![439086138-2f084a16-09c4-4b69-afb4-b66d17b658dd](https://github.com/user-attachments/assets/6502f6d9-76fd-4c43-9b6c-6343559e5fef)
 
 ## Use Cases
-![USERCASE DIAGRAM](https://github.com/user-attachments/assets/7ef9938c-634c-48f4-bab0-e07339c4d557)
+![Screenshot 2025-05-20 123305](https://github.com/user-attachments/assets/519969cb-8804-43ce-a715-a0486836bf6b)
 
+## Technology Stack
+![Screenshot 2025-05-20 123344](https://github.com/user-attachments/assets/f61757d7-822d-45f6-8dfc-91e69572fd20)
 
-TECHNOLOGY STACK:
+## Dependencies
+🔹 Software & Libraries
+React.js, Three.js or Babylon.js
+Node.js, Express.js
+MongoDB driver or Mongoose
+AWS SDK (if using S3), or Firebase SDK
+React Router, Axios, Framer Motion (for UI/UX)
+Multer (for file upload in Node backend)
+Cloudinary (optional for image hosting)
 
-Frontend: React.js, React Native
+🔹 Hardware / External
+3D model design software (Blender)
+High-quality audio/video equipment (for content creation)
+Cloud hosting accounts (AWS, Firebase, etc.)
 
-Backend: Node.js, Express.js
-
-Database: MongoDB / PostgreSQL
-
-Authentication: JWT
-
-Payment Gateway: Razorpay / Stripe
-
-DEPENDENCIES
-
-Frontend Development: 20 days
-
-Backend Development: 25 days
-
-Database Setup: 10 days
-
-Testing and Deployment: 15 days
-
-BUDGET:
-
-Rs. 50,000
-
-
+🔹 Human Resource
+Frontend Developer
+Backend Developer
+3D Modeler / Multimedia Creator
+Content Writer (for plant data and AYUSH info)
+UI/UX Designer
